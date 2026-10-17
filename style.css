@@ -1,0 +1,53 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard {
+  max-width: 400px;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2b6cb0;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: #edf2f7;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-on { background-color: #38a169; }
+.btn-off { background-color: #e53e3e; }
